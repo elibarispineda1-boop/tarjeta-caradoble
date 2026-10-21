@@ -1,0 +1,13 @@
+.tarjeta {
+    width: 200px;       /* Ancho inicial de la tarjeta */
+    height: 250px;      /* Alto inicial de la tarjeta */
+    background-color: lightgray; /* Color inicial para que se vea */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    /* Cambia el cursor para indicar que se puede hacer clic */
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    user-select: none;  /* Evita que se seleccione el texto al hacer clic rápido */
+}
